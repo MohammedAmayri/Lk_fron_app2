@@ -1,0 +1,68 @@
+.results-container {
+    background-color: #f9fff4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.results-title {
+    color: #2e7d32;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-name {
+    color: #1b5e20;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-description {
+    color: #616161;
+    font-style: italic;
+}
+
+.menu-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333; /* Dark grey for readability */
+    font-size: 1rem; /* Standard font size */
+    line-height: 1.5; /* Improved readability with proper line spacing */
+    margin: 10px 0; /* Spacing above and below paragraphs */
+    font-family: Arial, sans-serif; /* Clean and readable font */
+  }
+  
+
+strong {
+    color: #2e7d32;
+}
+
+.no-results {
+    color: #d32f2f;
+    /* Red text for visibility */
+    font-size: 1.2rem;
+    /* Slightly larger font size */
+    font-weight: bold;
+    /* Bold text to emphasize message */
+    margin: 20px 0;
+    /* Space above and below the text */
+    text-align: center;
+    /* Center the text */
+}
