@@ -13,12 +13,18 @@ body {
 }
 
 .App-header {
-  background-color: #16a34a; /* Green */
-  color: white;
-  padding: 20px;
+  font-size: 2.5rem; /* Larger header */
+  color: #fff; /* White text */
+  background-color: #16a34a; /* Green background */
+  padding: 20px 0; /* Added padding for better spacing */
+  margin-bottom: 20px;
+  width: 100%; /* Full width */
+  border-radius: 20px 20px 0 0; /* Rounded corners for top */
   text-align: center;
-  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
+
 
 form {
   background-color: #ffffff;
